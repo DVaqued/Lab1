@@ -21,7 +21,12 @@ public class Vaquedano_Angel_PlanillaEmpleado{
         double tarifaph=lea.nextDouble();
         
         double salariosem=(HorasTrab*tarifaph)/4;
-       
+        
+                System.out.println("----- Boleta del Empleado -------"+
+                "\n Nombre del empleado es: "+NombreEmpleado+
+                "\n Hora de Trabajo Mensual: "+HorasTrab+
+                "\n Tarifa por Hora: Lps. "+tarifaph+
+                "\n Salario del Empleado Semanal: Lps. "+salariosem);
     }
     
 }
